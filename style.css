@@ -49,12 +49,14 @@ h1 {
 }
 
 .image-area img {
-    width: 80%;
-    max-width: 400px;
+  width: auto;
+    max-width: 300px;
+    max-height:200px;
     height: auto;
     border: 3px solid #003366;
     background-color: #ffffff;
     border-radius: 10px;
+    object-fit: contain;
 }
 
 h2 {
